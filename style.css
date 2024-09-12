@@ -3,11 +3,19 @@ body {
     font-family: "Roboto";
 }
 
+
+/* Font and background colors */
+.logo, .hero, button, a, .image, .call, .footer { 
+    color: white;}
+
+ .box, button {
+    background-color: #3882F6;}
+
 .back, .footer {
     background-color: #1F2739;
-    color: white;
 }
 
+/* Header and top section of website */
 .back {
     display: flex;
     justify-content: center;
@@ -36,23 +44,20 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 25px;
 }
 
 .bottext {
-    color: white;
-    color: rgba(0, 0, 0, 0.148);
+    color: rgba(255, 255, 255, 0.714);
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
+
     padding: 7px 34px;
     border-radius: 10px;
     border-style: none;
@@ -62,7 +67,6 @@ button {
 .image {
     padding: 100px 130px;
     background-color: rgb(144, 143, 153);
-    color: white;
 }
 
 .hero {
@@ -78,6 +82,7 @@ button {
     gap: 10px;
 }
 
+/* Information and boxes section */
 .info {
     display: flex;
     flex-direction: column;
@@ -114,10 +119,11 @@ button {
 }
 
 .box {
-    width: 150px;
-    height: 150px;
-    border-style: solid;
+    width: 155px;
+    height: 155px;
     border-color: #3882F6;
+    background-color: white;
+    border-style: solid;
     border-width: thick;
     border-radius: 10px;
     flex-shrink: 0;
@@ -125,21 +131,23 @@ button {
 
 .subtext {
     color: gray;
-    font-size: 20px;
+    font-size: 19px;
     margin: 10px;
 }
 
+
+/* Quote section */
 .quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 0 90px;
 }
 
 .container {
-    width: 800px;
+    width: 790px;
 }
 
 .words {
@@ -151,15 +159,44 @@ button {
 .thor {
     display: flex;
     justify-content: end;
-    padding: 0 25px;
-    font-size: 23px;
+    padding: 0 45px;
+    font-size: 22px;
     font-weight: bold;
 }
 
+/* Call to action section */
 .bottom {
     display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
+.container2 { 
+    display: flex;
+    background-color: #3882F6;
+    width: 700px;
+    padding: 40px 90px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+
+.call {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.action {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Footer section */
 .footer {
     display: flex;
     padding: 20px;
@@ -167,6 +204,7 @@ button {
     align-items: center;
 }
 
+/* Font information */
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
