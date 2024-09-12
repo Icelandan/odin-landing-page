@@ -5,7 +5,7 @@ body {
 
 
 /* Font and background colors */
-.logo, .hero, button, a, .image, .call, .footer { 
+.logo, .hero, button, .image, .call { 
     color: white;}
 
  .box, button {
@@ -19,12 +19,12 @@ body {
 .back {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 5px 0 20px;
 }
 
 .comb {
     display: flex;
-    width: 1000px;
+    width: 1050px;
     flex-direction: column;
 }
 
@@ -40,10 +40,12 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 a {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.714);
 }
 
 ul {
@@ -54,19 +56,24 @@ ul {
 
 .bottext {
     color: rgba(255, 255, 255, 0.714);
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-button {
-
+button { 
     padding: 7px 34px;
     border-radius: 10px;
-    border-style: none;
     font-size: 16px;
 }
 
+.first {
+    border-style: none;
+}
+
 .image {
-    padding: 100px 130px;
+    padding: 100px 120px;
     background-color: rgb(144, 143, 153);
+    font-size: 18px;
 }
 
 .hero {
@@ -78,8 +85,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 400px;
-    gap: 10px;
+    width: 450px;
+    gap: 5px;
 }
 
 /* Information and boxes section */
@@ -147,7 +154,7 @@ button {
 }
 
 .container {
-    width: 790px;
+    width: 780px;
 }
 
 .words {
@@ -172,11 +179,16 @@ button {
     align-items: center;
 }
 
+.second {
+    border-color: white;
+    border-style: solid;
+}
+
 .container2 { 
     display: flex;
     background-color: #3882F6;
     width: 700px;
-    padding: 40px 90px;
+    padding: 45px 120px;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -199,9 +211,11 @@ button {
 /* Footer section */
 .footer {
     display: flex;
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
     align-items: center;
+    color: rgba(255, 255, 255, 0.714);
+    font-size: 18px;
 }
 
 /* Font information */
